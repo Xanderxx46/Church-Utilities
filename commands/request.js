@@ -17,7 +17,7 @@ module.exports = {
         const testEmbed = new EmbedBuilder()
         .setColor('#0099ff')
         .setTitle('Someone has requested a role.')
-        .setDescription(`<@${commandUserId}> has requested a role. \n The name: ${name}`)
+        .setDescription(`<@${commandUserId}> has requested a role. \n The name: **${name}**`)
         
 		console.log(name)
             await interaction.reply({content: '<@829909201262084096>', embeds: [testEmbed]});

@@ -1,6 +1,6 @@
 {
     "apps": [{
-        "name": "That One Friend",
+        "name": "Church Role Requests",
         "script": "./index.js"
     }]
 }
